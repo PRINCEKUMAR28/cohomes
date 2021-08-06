@@ -1,0 +1,422 @@
+.Search-box{
+    background-image: url('rooms-background.jpg');
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    background-repeat: no-repeat;
+}
+.navbar-nav{
+    margin-left: 50rem;
+}
+.top-links>.navbar-collapse>.navbar-nav>.nav-item>a{
+    color: white;
+    font-family: Poppins;
+    padding-right: 2rem;
+}
+.top-links>.navbar-collapse>.navbar-nav>.nav-item>.login{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+.top-links>.navbar-collapse>.navbar-nav>.nav-item>.login>button{
+    background-color: transparent;
+    border: none;
+}
+.top-links>.navbar-collapse>.navbar-nav>.nav-item>.login>.person{
+    background-color: #000000;
+    border-radius: 50%;
+    width: 1.75rem;
+    height: 1.75rem;
+    padding-top: 2px;
+    padding-left: 2px;
+    
+}
+.top-links>.navbar-collapse>.navbar-nav>.nav-item>.login>.person>span{
+    color: #FFFFFF;
+}
+.top-links>.navbar-collapse>.navbar-nav>.nav-item>.login>span{
+    padding: 0px 5px 0px;
+}
+.display-info{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+.display-info>.info-text>h1{
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.display-info>.search-box{
+    padding: 1rem 1rem 1rem;
+    margin-left: 10rem;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.display-info>.search-box>input{
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-right: 2px solid black;
+}
+.display-info>.search-box>.btn{
+    background-color: #F9BB4B;
+    color: #FFFFFF;
+    padding-top: 7px;
+    padding-left: 8px;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.recommendation{
+    margin-top: 3rem;
+}
+.recommendation>.filter-btn{
+    margin-top: 2rem;
+}
+.recommendation>.filter-btn>button{
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 0.25rem 2rem 0.25rem;
+    margin-left: 2rem;
+}
+.recommendation>.filter-btn>button:first-child{
+    margin-left: 0rem;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards{
+    margin-top: 3rem;
+    column-count: 2;
+    column-gap: 5rem;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card{
+    border-radius: 0px 20px 20px 0px;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 20px 20px 0px;
+    width: 32rem;
+    background-color: #f8f8f8;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>a{
+    background-color: #f9bb4b;
+    border-radius: 0px 19px 18px 0px;
+    width: 3rem;
+    text-align: center;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>a>span{
+    margin-top: 4rem;
+    color: black;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>img{
+    width: 10rem;
+    height: 10rem;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-text{
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-text>h6{
+    color: #f9bb4b;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-text>p{
+    margin-top: 2rem;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-price{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-price>p{
+    margin-top: 1.5rem;
+}
+.carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-price>span{
+    margin-left: 3rem;
+}
+.carousel>.carousel-indicators{
+    position: unset;
+    margin-top: 3rem;
+}
+.carousel>.carousel-indicators>li{
+    background-color: black;
+    height: 1.5rem;
+}
+.carousel>a{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    opacity: 1;
+}
+.carousel>.carousel-control-prev{
+    margin-top: 38.8rem;
+    margin-left: 28.5rem;
+}
+.carousel>.carousel-control-prev>span{
+    color: black;
+}
+.carousel>.carousel-control-next{
+    margin-top: 38.8rem;
+    margin-right: 28.5rem;
+}
+.carousel>.carousel-control-next>span{
+    color: black;
+}
+.photos-text{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.photos-text>p{
+    font-size: medium;
+    color: #F9BB4B;
+    font-family: Poppins;
+}
+.photos-text>h4{
+    font-family: Poppins;
+}
+.photos>.carousel>.carousel-inner>.carousel-item>img{
+    width: 23.5rem;
+    height: 20rem;
+}
+.photos>.carousel>.carousel-inner>button{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #F9BB4B;
+    margin-top: 10rem;
+    opacity: 0.8;
+}
+.photos>.carousel>.carousel-inner>button>span{
+    color: #000000;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top: 2rem;
+}
+.footer>.company-logo{
+    text-align: center;
+    color: #ffffff;
+}
+.footer>.company-logo>.social-media{
+    margin-top: 5rem;
+    text-align: justify;
+}
+.footer>.company-logo>.social-media>.fa{
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.footer>.company-logo>.social-media>.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.footer>.company-logo>.social-media>.fa-twitter{
+    background: #55ACEE;
+    color: white;;
+}
+.footer>.company-logo>.social-media>.fa-google{
+    background: #dd4b39;
+    color: white;
+}
+.footer>.useful-links>h5{
+    color: #ffffff;
+}
+.footer>.useful-links>ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.footer>.useful-links>ul>li>a{
+    color: #F9BB4B;
+}
+.footer>.privacy>h5{
+    color: #ffffff;
+}
+.footer>.privacy>ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.footer>.privacy>ul>li>a{
+    color: #F9BB4B;
+}
+.footer>.contact-info>h5{
+    color: #ffffff;
+}
+.footer>.contact-info>ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.footer>.contact-info>ul>li{
+    display: flex;
+}
+.footer>.contact-info>ul>li>span{
+    color: #F9BB4B;
+}
+.footer>.contact-info>ul>li>a{
+    color: #ffffff;
+    margin-left: 0.5rem;
+}
+
+
+@media screen and (max-width: 468px){
+    .p-container{
+        width: 500px;
+    }
+    .navbar-nav{
+        margin-left: 0rem;
+    }
+    .top-links>.navbar-collapse>.navbar-nav>.nav-item>.login{
+        margin-left: 0rem;
+        width: 5rem;
+    }
+    .display-info{
+        margin-left: 0rem;
+        display: block;
+    }
+    .display-info>.info-text{
+        margin-left: 3rem;
+    }
+    .display-info>.search-box{
+        margin-left: 2rem;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        width: 15rem;
+    }
+    .display-info>.search-box>input{
+        border-bottom: 2px solid black;
+        border-right: none;
+        margin-bottom: 1rem;
+        margin-left: 1.5rem;
+    }
+    .display-info>.search-box>.btn{
+        margin-left: 5rem;
+    }
+    .recommendation>.filter-btn>button{
+        padding: 0.05rem 1rem 0.25rem;
+        margin-left: 0.25rem;
+    }
+    .recommendation>.filter-btn>button:last-child{
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards{
+        column-count: 1;
+        column-gap: 2rem;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card{
+        width: 29.25rem;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>img{
+        height: 12.55rem;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-text>h6{
+        font-size: medium;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-text>p{
+        font-size: medium;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-text>span{
+        font-size: medium;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>.hotel-card-price>p{
+        font-size: small;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>a>span{
+        margin-top: 5.5rem;
+    }
+    .carousel>.carousel-control-prev{
+        margin-top: 87.2rem;
+        margin-left: 9rem;
+    }
+    .carousel>.carousel-control-next{
+        margin-top: 87.2rem;
+        margin-right: 8.6rem;
+    }
+    .photos>.carousel>.carousel-inner>.carousel-item>img{
+        width: 7.6rem;
+        height: 8rem;
+    }
+    .photos>.carousel>.carousel-inner>button{
+        margin-top: 2.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .footer>.company-logo{
+        padding: 0.5rem;
+    }
+    .footer>.useful-links{
+        padding: 0.5rem;
+    }
+    .footer>.privacy{
+        padding: 0.5rem;
+    }
+    .footer>.contact-info{
+        padding: 0.5rem;
+    }
+    .footer>.company-logo>.social-media>.fa{
+        padding: 5px;
+        font-size: 10px;
+        width: 20px;
+        margin: 3px 1px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navbar-nav{
+        margin-left: 3rem;
+    }
+    .display-info{
+        margin-left: 0rem;
+    }
+    .display-info>.info-text{
+        margin-left: 3rem;
+    }
+    .display-info>.search-box{
+        margin-left: 1.5rem;
+    }
+    .display-info>.search-box>input{
+        width: 8rem;
+    }
+    .recommendation>.filter-btn>button{
+        padding: 0.05rem 1rem 0.25rem;
+        margin-left: 1rem;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards{
+        column-count: 1;
+        column-gap: 2rem;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card{
+        width: 40rem;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card{
+        width: 40rem;
+    }
+    .carousel>.carousel-inner>.carousel-item>.hotel-cards>.card>.hotel-card>img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .carousel>.carousel-control-prev{
+        margin-top: 102rem;
+        margin-left: 15rem;
+    }
+    .carousel>.carousel-control-next{
+        margin-top: 101.8rem;
+        margin-right: 15rem;
+    }
+    .photos>.carousel>.carousel-inner>.carousel-item>img{
+        width: 11.75rem;
+        height: 12rem;
+    }
+    .photos>.carousel>.carousel-inner>button{
+        margin-top: 4.5rem;
+    }
+}
